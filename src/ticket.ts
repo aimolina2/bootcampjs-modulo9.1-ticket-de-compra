@@ -13,9 +13,4 @@ export const calculaTicket = (compra: LineaTicket[]): TicketFinal => {
   };
 };
 
-// const calculaTicket = (lineasTicket: LineaTicket[]) => {
-//   lineasTicket
-//     .reduce
-//     // ...
-//     ();
-// };
+/* En esta función no usamos un BUCLE FOR o .REDUCE ya que las funciones que importamos ya recorren los arrays de forma independiente */
